@@ -11,7 +11,12 @@ e donuts(23) retorna 'Number of donuts: many'
 
 def donuts(count):
     # +++ SUA SOLUÇÃO +++
-    return
+    exibe = 'Number of donuts: '
+    if count <=9:
+        exibe += "%s"%(count)
+    else:
+        exibe += 'many'
+    return exibe
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
